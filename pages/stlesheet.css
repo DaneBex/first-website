@@ -1,0 +1,118 @@
+head,body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+nav {
+background-color: lightslategray;
+margin-top: -20px;
+padding-left: 15px;
+margin-left: -10px;
+margin-right: -10px;
+}
+
+#title {
+    color: white;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: bisque;
+}
+
+.paragraphs {
+    text-align: center;
+    margin-top: 50px;;
+}
+
+.underline {
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+a:hover {
+    color: green;
+    transition-delay: .25s;
+    transition-duration: 1s;
+}
+
+#circle {
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 30%;
+}
+
+.underline:hover {
+    border-top: solid;
+    border-width: 2px;
+    -o-transition-delay: 1s;
+    transition-duration: 3s;
+}
+
+form {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 500px;
+}
+
+fieldset {
+height: 500px;
+padding: 100px;
+text-align: center;
+}
+
+.labels {
+    display: block;
+    height: 50px;
+}
+
+button:hover {
+transition-delay: .25s;
+transition-duration: 1s;
+background-color: red;
+}
+
+.change {
+    color: fuchsia;
+}
+
+#lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wide {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+figcaption {
+    text-align: center;
+}
+
+.down {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+}
+
+.centered-it {
+    text-align: center;
+}
+
+li {
+    margin-top: 20px;
+}
